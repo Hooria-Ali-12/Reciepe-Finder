@@ -5,7 +5,7 @@ import { Image } from "expo-image";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../../constants/colors";
 import { homeStyles } from "../../assets/styles/home.styles";
-import { MealAPI } from "../../services/meal-api";
+import { MealAPI } from "../../services/mealAPI";
 import RecipeCard from "../../components/RecipeCard";
 import CategoryFilter from "../../components/CategoryFilter";
 import LoadingSpinner from "../../components/LoadingSpinner";
